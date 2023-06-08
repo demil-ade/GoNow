@@ -9,12 +9,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 3rem;
+    
 
         .logo{
-            @import url('https://fonts.cdnfonts.com/css/stardom');
-            font-family: 'Stardom', sans-serif;
+           /* @import url('https://fonts.cdnfonts.com/css/stardom');
+            font-family: 'Stardom', sans-serif;*/
             color: #1E1E1E;
+            margin-top: 4.25rem;
             /*width: 7.223rem;
             height: 1.575rem;
             left: calc(50% - 115.56px/2 - 596.37px);8*/
@@ -27,6 +28,15 @@
             font-size: 1rem;
             display: flex;
             gap: 3rem;
+            margin-bottom: 6.063rem;
+            margin-top: 4.438rem;
+
+            @media (max-width: 550px){
+                gap: 2rem;
+            }
+            @media (max-width: 530px){
+                gap: 1rem;
+            }
 
             .link{
 
@@ -41,56 +51,61 @@
             background-color: #1E1E1E;
             color:#FFFFFF;
             border-radius: 5px;
-            padding: 5px 20px 5px 20px;
+            margin-bottom: 4.938rem;
+            margin-top: 3.313rem;
+            padding: 1.094rem 4.063rem;   
+
+            @media(max-width: 650px){
+                padding: 1.094rem 3rem;
+            }
+
+            @media(max-width: 580px){
+                padding: 1.094rem 2rem;
+            }
+
+            @media(max-width: 490px){
+                padding: 1.094rem 1rem;
+            }
             
         }
     }
 
     .description{
-        display: flex;
-        justify-content: center;
-        gap: 138px;
+        width: 100%;
+        margin: 0 auto;
+        /*display: flex;
+        justify-content: space-evenly;*/
+
+        &__information{
+            width: 100%;
+            margin: auto;
+        }
 
         &__info{
-            margin-top: 174px;
+            
 
             &__one{
                 color: #212127;
                 font-weight: 400;
-                font-size: 70px;
-                max-width: 453px;
+                font-size: 4.375rem;
+                max-width: 28rem;
+                margin-bottom: 1.563rem;
+                margin-top: 10.625rem;
             }
 
             &__two{
                 @import url('https://fonts.googleapis.com/css?family=Lexend');
                 font-family: 'Lexend', sans-serif;
                 font-weight: 400;
-                font-size: 20px;
+                font-size: 1.25rem;
                 color: #3F464A;
-                max-width: 403px;
+                max-width: 25rem;
             }
         }
 
-       /* &__image{
-            background: #D9D9D9;
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            margin-top: 70px;
-            margin-bottom: 219px;
-        }*/
-        .subtract{
-            height: 346.1px;
-            width: 114px;
-        }
-
-        .young-african{
-            border-radius: 200%;
-        }
-
-        .smiling-african{
-            
-
+        .image{
+            margin-bottom: 12.313rem;
+            margin-top: 5.5rem;
         }
     }
 
@@ -112,7 +127,16 @@
                 font-weight: 400;
                 font-size: 50px;
                 margin-top: 71px;
-                margin-bottom: 94px;
+
+                &__one{
+                    max-width: 200px;
+                }
+                &__two{
+                    max-width: 200px;
+                }
+                &__three{
+                    max-width: 200px;
+                }
             }
             &__steps{
                 display: flex;
@@ -122,6 +146,12 @@
                 font-size: 20px;
                 font-weight: 400;
                 color: #A5B0B6;
+                margin-top: 41px;
+                gap: 86px;
+
+                .images{
+                    margin-bottom: 23px;
+                }
             }
         }
     }
@@ -130,32 +160,12 @@
         color: #FFFFFF;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         
 
         &__images{
             margin-top: 22.7px;
 
-            &__one{
-                position: absolute;
-                width: 249.11px;
-                height: 280.52px;
-                border-radius: 2px;
-                transform: rotate(-6.3deg);
-
-                &__div{
-                    background-color: #FFFFFF;
-                    border-radius: 2px;
-                    position: absolute;
-                    width: 301.1px;
-                    height: 279.44px;
-                    transform: rotate(-6.3deg);
-                }
-            }
-
-            &__two{
-                transform: rotate(8.7deg);
-            }
         }
 
         &__info{
@@ -163,6 +173,7 @@
                 margin-top: 50px;
                 font-weight: 400;
                 font-size: 70px;
+                margin-bottom: 10px;
             }
             &__small{
                 @import url('https://fonts.googleapis.com/css?family=Lexend');
@@ -183,7 +194,6 @@
                 &__button{
                     background-color: #1E1E1E;
                     color: #FFFFFF;
-                    width: 191px;
                     border-radius: 5px;
                     padding: 17.5px 65px;   
                     font-family: DM Sans;
@@ -192,6 +202,7 @@
                     @import url('https://fonts.googleapis.com/css?family=DM Sans');
                     font-family: 'DM Sans', sans-serif;
                     margin-bottom: 97px;
+                    max-width: 191px;
                 }
 
                 .full-name{
@@ -202,6 +213,7 @@
                     outline: none;
                     width: 459px;
                     height: 76px;
+                    padding: 1rem;
 
                     ::placeholder { 
                         color: red;
@@ -217,6 +229,7 @@
                     outline: none;
                     width: 459px;
                     height: 76px;
+                    padding: 1rem;
                 }
 
                 .email{
@@ -227,6 +240,7 @@
                     outline: none;
                     width: 459px;
                     height: 76px;
+                    padding: 1rem;
                 }
 
                 .education-level{
@@ -237,6 +251,7 @@
                     outline: none;
                     width: 459px;
                     height: 76px;
+                    padding: 1rem;
                 }
             }
         }
