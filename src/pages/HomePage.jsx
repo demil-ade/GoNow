@@ -16,13 +16,11 @@ function Homepage(){
                 <div className="GoNow">Go Now</div>
             </div>
             <div className="description">
-                <div className="description__information">
                     <div className="description__info">
                         <p className="description__info__one">Learn, Earn Money & Get Connected</p>
                         <p className="description__info__two">Learn industry required skills, earn money while doing so and get connected to your future employer.</p>
                     </div>
                     <img src="./images/hero-image.png" className="image"/>
-                </div>
             </div>
             <div className="get-started">
                 <img src='./images/getstarted.png' className="get-started__image"/>
