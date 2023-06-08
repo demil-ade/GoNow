@@ -1,0 +1,369 @@
+
+.Home-page{
+    width: 100%;
+    margin: auto;
+
+    .top-panel{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 3rem;
+
+        .logo{
+            @import url('https://fonts.cdnfonts.com/css/stardom');
+            font-family: 'Stardom', sans-serif;
+            color: #1E1E1E;
+            /*width: 7.223rem;
+            height: 1.575rem;
+            left: calc(50% - 115.56px/2 - 596.37px);8*/
+        }
+
+        .nav{
+            @import url('https://fonts.googleapis.com/css?family=Lexend');
+            font-family: 'Lexend', sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            display: flex;
+            gap: 3rem;
+
+            .link{
+
+            }
+        }
+
+        .GoNow{
+            @import url('https://fonts.googleapis.com/css?family=DM Sans');
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            background-color: #1E1E1E;
+            color:#FFFFFF;
+            border-radius: 5px;
+            padding: 5px 20px 5px 20px;
+            
+        }
+    }
+
+    .description{
+        display: flex;
+        justify-content: center;
+        gap: 138px;
+
+        &__info{
+            margin-top: 174px;
+
+            &__one{
+                color: #212127;
+                font-weight: 400;
+                font-size: 70px;
+                max-width: 453px;
+            }
+
+            &__two{
+                @import url('https://fonts.googleapis.com/css?family=Lexend');
+                font-family: 'Lexend', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                color: #3F464A;
+                max-width: 403px;
+            }
+        }
+
+       /* &__image{
+            background: #D9D9D9;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            margin-top: 70px;
+            margin-bottom: 219px;
+        }*/
+        .subtract{
+            height: 346.1px;
+            width: 114px;
+        }
+
+        .young-african{
+            border-radius: 200%;
+        }
+
+        .smiling-african{
+            
+
+        }
+    }
+
+    .get-started{
+        display: flex;
+        flex-direction: row;
+        background-color: #1E1E1E;
+        color: #FFFFFF;
+        &__image{
+            border-radius: 2px;
+            margin-top: -5rem;
+            padding-left: 7rem;
+            padding-right: 4rem;
+            padding-bottom: 62px;
+        }
+
+        &__text{
+            &__step{
+                font-weight: 400;
+                font-size: 50px;
+                margin-top: 71px;
+                margin-bottom: 94px;
+            }
+            &__steps{
+                display: flex;
+                flex-direction: row;
+                @import url('https://fonts.googleapis.com/css?family=Lexend');
+                font-family: 'Lexend', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                color: #A5B0B6;
+            }
+        }
+    }
+    .form{
+        background-color: #0B88DF;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+
+        &__images{
+            margin-top: 22.7px;
+
+            &__one{
+                position: absolute;
+                width: 249.11px;
+                height: 280.52px;
+                border-radius: 2px;
+                transform: rotate(-6.3deg);
+
+                &__div{
+                    background-color: #FFFFFF;
+                    border-radius: 2px;
+                    position: absolute;
+                    width: 301.1px;
+                    height: 279.44px;
+                    transform: rotate(-6.3deg);
+                }
+            }
+
+            &__two{
+                transform: rotate(8.7deg);
+            }
+        }
+
+        &__info{
+            &__big{
+                margin-top: 50px;
+                font-weight: 400;
+                font-size: 70px;
+            }
+            &__small{
+                @import url('https://fonts.googleapis.com/css?family=Lexend');
+                font-family: 'Lexend', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                max-width: 417px;
+                margin-bottom: 39px;
+            }
+
+            &__details{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                color:#FFFFFF;
+                background-color: #0B88DF;
+
+                &__button{
+                    background-color: #1E1E1E;
+                    color: #FFFFFF;
+                    width: 191px;
+                    border-radius: 5px;
+                    padding: 17.5px 65px;   
+                    font-family: DM Sans;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    @import url('https://fonts.googleapis.com/css?family=DM Sans');
+                    font-family: 'DM Sans', sans-serif;
+                    margin-bottom: 97px;
+                }
+
+                .full-name{
+                    background-color: #0B88DF;
+                    color:#FFFFFF;
+                    border: 1px solid #DEDEDE;
+                    border-radius: 5px;
+                    outline: none;
+                    width: 459px;
+                    height: 76px;
+
+                    ::placeholder { 
+                        color: red;
+                        opacity: 1;
+                    }
+                }
+
+                .phone-number{
+                    background-color: #0B88DF;
+                    color:#FFFFFF;
+                    border: 1px solid #DEDEDE;
+                    border-radius: 5px;
+                    outline: none;
+                    width: 459px;
+                    height: 76px;
+                }
+
+                .email{
+                    background-color: #0B88DF;
+                    color:#FFFFFF;
+                    border: 1px solid #DEDEDE;
+                    border-radius: 5px;
+                    outline: none;
+                    width: 459px;
+                    height: 76px;
+                }
+
+                .education-level{
+                    background-color: #0B88DF;
+                    color:#FFFFFF;
+                    border: 1px solid #DEDEDE;
+                    border-radius: 5px;
+                    outline: none;
+                    width: 459px;
+                    height: 76px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        margin: auto;
+        &__top{
+            display: flex;
+            flex-direction: row;
+            gap: 167px;
+            justify-content: center;
+
+            &__about{
+
+                &__logo{
+                    @import url('https://fonts.cdnfonts.com/css/stardom');
+                    font-family: 'Stardom', sans-serif;
+                    color: #1E1E1E;
+                }
+
+                &__description{
+                    margin-top: 19.8px;
+                    max-width: 357px;
+                    color: #3F464A;
+                    @import url('https://fonts.googleapis.com/css?family=Lexend');
+                    font-family: 'Lexend', sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 23px;
+                }
+            }
+
+            &__options-one{
+                color: #3F464A;
+                @import url('https://fonts.googleapis.com/css?family=Lexend');
+                font-family: 'Lexend', sans-serif;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 50px;
+            }
+
+            &__options-two{
+                color: #3F464A;
+                @import url('https://fonts.googleapis.com/css?family=Lexend');
+                font-family: 'Lexend', sans-serif;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 50px;
+            }
+
+            &__options-three{
+                color: #3F464A;
+                @import url('https://fonts.googleapis.com/css?family=Lexend');
+                font-family: 'Lexend', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+
+                &__contact{
+                    margin-bottom: 44px;
+
+                    .footer-email{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 31px;
+                        margin-bottom: 27px;
+                        color: #3F464A;
+                        @import url('https://fonts.googleapis.com/css?family=Lexend');
+                        font-family: 'Lexend', sans-serif;
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+
+                    .footer-contact{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 31px;
+                        color: #3F464A;
+                        @import url('https://fonts.googleapis.com/css?family=Lexend');
+                        font-family: 'Lexend', sans-serif;
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+                }
+
+                .socials{
+                    display: flex;
+                    flex-direction: row;
+
+                    &__text{
+                        color: #3F464A;
+                        @import url('https://fonts.googleapis.com/css?family=Lexend');
+                        font-family: 'Lexend', sans-serif;
+                        font-size: 20px;
+                        font-weight: 400;
+                        margin-right: 23px;
+                    }
+
+                    &__handles{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10.22px;
+                    }
+                }
+            }
+        } 
+
+        .copyright{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 67px;
+            margin-bottom: 35px;
+            color: #3F464A;
+            @import url('https://fonts.googleapis.com/css?family=Lexend');
+            font-family: 'Lexend', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+
+        }
+    }
+
+}
