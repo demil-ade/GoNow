@@ -7,7 +7,7 @@ function Homepage(){
     return(
         <div className="Home-page">
             <div className="top-panel">
-                <div className="logo"><img src="./images/GoNow.png"/></div>
+                <p className="logo">GoNow</p>
                 <div className="nav">
                     <p className="link">Home</p>
                     <p className="link">Create tasks</p>
@@ -43,9 +43,7 @@ function Homepage(){
                 </div>
             </div>
             <div className="form">
-                <div className="form__images">
-                    <img src="./images/Group.png" className="form__images__one"/>
-                </div>
+                <img src="./images/Group.png" className="form__images"/>
                 <div className="form__info">
                     <p className="form__info__big">I am interested</p>
                     <p className="form__info__small">Curabitur sollicitudin elit est vitae placerateros convallis eu. Must be between age 15-24.</p>
@@ -60,14 +58,14 @@ function Homepage(){
                             <option value="">Pumpernickel</option> 
                             <option value="">Reeses</option> 
                         </select>
-                        <button className="form__info__details__button"type='submit'>Sign up</button>
+                        <div className="form__info__details__button">Sign up</div>
                     </form>
                 </div>
             </div>
             <div className="footer">
                 <div className="footer__top">
                     <div className="footer__top__about">
-                        <img src="./images/GoNow.png"/>
+                        <p className="footer__top__about__logo">GoNow</p>
                         <p className="footer__top__about__description">In vestibulum mi vel orci fermentum, a mollis elit dictum. 
                         Aenean iaculis, tortor varius efficitur pulvina</p>
                     </div>
@@ -84,25 +82,26 @@ function Homepage(){
                     <div className="footer__top__options-three">
                         <div className="footer__top__options-three__contact">
                             <div className="footer-email">
-                                <img src="./images/mail.png"/>
+                                <img className="footer-email__icon" src="./images/mail.png"/>
                                 <p>info@gonow.com</p>
                             </div>
                             <div className="footer-contact">
-                                <img src="./images/phone-call.png"/>
+                                <img className="footer-contact__icon" src="./images/phone-call.png"/>
                                 <p>0810 0000 000</p>
                             </div>
                         </div>
                         <div className="socials">
                             <p className="socials__text">Follow us</p>
                             <div className="socials__handles">
-                                <img src="./images/facedbook.png"/>
-                                <img src="./images/instagram.png"/>
-                                <img src="./images/linkedin.png"/>
-                                <img src="./images/twitter.png"/>
+                                <img className="socials__handles__icons" src="./images/facedbook.png"/>
+                                <img className="socials__handles__icons" src="./images/instagram.png"/>
+                                <img className="socials__handles__icons" src="./images/linkedin.png"/>
+                                <img className="socials__handles__icons" src="./images/twitter.png"/>
                             </div>
                         </div>
                     </div>
                 </div>
+                <p className="footer__top__about__logotwo">GoNow</p>
                 <p className="copyright">Copyright © {date.getFullYear()} gonow</p>
             </div>
         </div>
