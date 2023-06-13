@@ -70,7 +70,7 @@
             margin-top: 3.313rem;
             padding: 1.094rem 4.063rem;   
 
-            @media(max-width: 650px){
+            @media(max-width: 740px){
                 padding: 1.094rem 3rem;
             }
 
@@ -103,17 +103,7 @@
         justify-content: center;
         gap: 3rem;
 
-        @media(max-width: 621px){
-            width: 100%;
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 0rem;
-            margin-bottom: 7.5rem;
-        }
-
+        
         @media(max-width: 1220px){
             gap: 2rem;
         }
@@ -125,6 +115,22 @@
         @media(max-width: 920px){
             gap: 0rem;
         }
+        
+        @media(max-width: 680px){
+            margin-bottom: 7.5rem;
+        }
+
+        @media(max-width: 621px){
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0rem;
+            margin-bottom: 7.5rem;
+        }
+
 
         .image-mobile{
             width: 21.654rem;
