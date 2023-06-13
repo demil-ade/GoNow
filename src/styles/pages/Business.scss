@@ -1,0 +1,271 @@
+.Home-page{
+    width: 100%;
+    margin: auto;
+
+    .top-panel{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+
+        .logo{
+            @import url("https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap");
+            font-family: 'Stardom', sans-serif;
+            color: #1E1E1E;
+            margin-top: 3.5rem;
+            font-size: 2.3rem;
+            text-align: center;
+
+            @media(max-width: 420px){
+                font-size: 1.85rem;
+            }
+        }
+
+        .nav{
+            @import url('https://fonts.googleapis.com/css?family=Lexend');
+            font-family: 'Lexend', sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            display: flex;
+            gap: 3rem;
+            margin-bottom: 6.063rem;
+            margin-top: 4.6rem;
+            text-align: center;
+
+            @media (max-width: 550px){
+                gap: 2rem;
+            }
+            @media (max-width: 530px){
+                gap: 1rem;
+            }
+
+            @media(max-width: 475px){
+                font-size: 0.8rem;
+            }
+
+            @media(max-width: 420px){
+                font-size: 0.65rem;
+            }
+        }
+
+        .GoNow{
+            @import url('https://fonts.googleapis.com/css?family=DM Sans');
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            background-color: #1E1E1E;
+            color:#FFFFFF;
+            border-radius: 5px;
+            margin-bottom: 4.938rem;
+            margin-top: 3.313rem;
+            padding: 1.094rem 4.063rem;   
+
+            @media(max-width: 650px){
+                padding: 1.094rem 3rem;
+            }
+
+            @media(max-width: 580px){
+                padding: 1.094rem 2rem;
+            }
+
+            @media(max-width: 490px){
+                padding: 1.094rem 1rem;
+            }
+
+            @media(max-width: 420px){
+                font-size: 0.8rem;
+                padding: 1rem 0.75rem;
+            }
+            
+        }
+    }
+
+    .description{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+
+        @media(max-width: 1220px){
+            gap: 2rem;
+        }
+
+        @media(max-width: 960px){
+            gap: 1rem;
+        }
+
+        @media(max-width: 920px){
+            gap: 0rem;
+        }
+
+        &__info{
+            
+
+            &__one{
+                color: #212127;
+                font-weight: 400;
+                font-size: 3.75rem;
+                max-width: 25rem;
+                margin-bottom: 1.563rem;
+                margin-top: 10.625rem;
+
+                
+                @media(max-width: 1030px){
+                    margin-top: 6rem;
+                }
+
+                @media(max-width: 960px){
+                    font-size: 3.6rem;
+                }
+
+                @media(max-width: 900px){
+                    font-size: 3rem;
+                    max-width: 22rem;
+                }
+
+                @media(max-width: 760px){
+                    max-width: 20rem;
+                    margin-top: 4.5rem;
+                    margin-bottom: 1.2rem;
+                }
+
+                @media(max-width: 720px){
+                    max-width: 18rem;
+                }
+
+                @media(max-width: 680px){
+                    margin-bottom: 1rem;
+                    font-size: 2.5rem;
+                    max-width: 16rem;
+                }
+
+                @media(max-width: 650px){
+                    max-width: 14.5rem;
+                    margin-top: 0rem;
+                }
+
+                /*@media(max-width: 550px){
+                    max-width: 12.5rem;
+                }
+
+                @media(max-width: 475px){
+                    margin-top: 2rem;
+                }
+
+                /*@media(max-width: 450px){
+                    max-width: 10.5rem;
+                    font-size: 1.5rem;
+                }*/
+            }
+
+            &__two{
+                @import url('https://fonts.googleapis.com/css?family=Lexend');
+                font-family: 'Lexend', sans-serif;
+                font-weight: 400;
+                font-size: 1.25rem;
+                color: #3F464A;
+                max-width: 24.3rem;
+
+                @media(max-width: 900px){
+                    font-size: 0.9rem;
+                    max-width: 20rem;
+                }
+
+                @media(max-width: 760px){
+                    width: 18rem;
+                }
+
+                @media(max-width: 720px){
+                    width: 16rem;
+                }
+
+                @media(max-width: 680px){
+                    font-size: 0.7rem;
+                    max-width: 14rem;
+                }
+
+                @media(max-width: 590px){
+                    margin-bottom: 2rem;
+                }
+
+                @media(max-width: 550px){
+                    max-width: 11.5rem;
+                    font-size: 0.6rem;
+                    margin-bottom: 5rem;
+                }
+
+                @media(max-width: 450px){
+                    max-width: 9.5rem;
+                    font-size: 0.5rem;
+                }
+
+                @media(max-width: 420px){
+                    max-width: 17rem;
+                    font-size: 0.65rem;
+                }
+
+            }
+        }
+
+        .image{
+            margin-bottom: 10.438rem;
+            margin-top: 5.5rem;
+
+            @media(max-width: 1330px){
+                width: 49rem;
+            }
+
+            @media(max-width: 1270px){
+                width: 46rem;
+            }
+
+            @media(max-width: 1200px){
+                width: 42rem;
+            }
+            @media(max-width: 1140px){
+                width: 35rem;
+            }
+
+            @media(max-width: 1030px){
+                width: 30rem;
+                
+            }
+
+            @media(max-width: 900px){
+                width: 26rem;
+            }
+
+            @media(max-width: 790px){
+                width: 23rem;
+            }
+
+            @media(max-width: 720px){
+            }
+
+            @media(max-width: 650px){
+                width: 20rem;
+                margin-bottom: 6rem;
+                margin-top: -1rem;
+            }
+
+            @media(max-width: 600px){
+                width: 17rem;
+            }
+
+            @media(max-width: 550px){
+                width: 14rem;
+            }
+
+            @media(max-width: 450px){
+                width: 11rem;
+            }
+
+            @media(max-width: 420px){
+                display: none;
+            }
+        }
+    }
+}

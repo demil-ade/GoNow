@@ -11,11 +11,13 @@ function Homepage(){
                 <div className="nav">
                     <p className="link">Home</p>
                     <p className="link">Create tasks</p>
-                    <p className="link">FAQ</p>
+                    <p className="link">For Business</p>
                 </div>
                 <div className="GoNow">Go Now</div>
+                <img src="./images/menu.png" className="menu"/>
             </div>
             <div className="description">
+                    <img src="./images/hero-image-mobile.png" className="image-mobile"/>
                     <div className="description__info">
                         <p className="description__info__one">Learn, Earn Money & Get Connected</p>
                         <p className="description__info__two">Learn industry required skills, earn money while doing so and get connected to your future employer.</p>
@@ -23,6 +25,7 @@ function Homepage(){
                     <img src="./images/hero-image.png" className="image"/>
             </div>
             <div className="get-started">
+                <img src="./images/getstarted-mobile.png" className="get-started__image__two"/>
                 <img src='./images/getstarted.png' className="get-started__image"/>
                 <div className="get-started__text">
                     <p className="get-started__text__step">Get started in 3 easy steps</p>
@@ -43,6 +46,7 @@ function Homepage(){
                 </div>
             </div>
             <div className="form">
+                <img src="./images/Group-mobile.png" className="form__images__two"/>
                 <img src="./images/Group.png" className="form__images"/>
                 <div className="form__info">
                     <p className="form__info__big">I am interested</p>
@@ -97,11 +101,14 @@ function Homepage(){
                                 <img className="socials__handles__icons" src="./images/instagram.png"/>
                                 <img className="socials__handles__icons" src="./images/linkedin.png"/>
                                 <img className="socials__handles__icons" src="./images/twitter.png"/>
+                                <img className="socials__handles__icon" src="./images/facedbook-two.png"/>
+                                <img className="socials__handles__icon" src="./images/instagram-two.png"/>
+                                <img className="socials__handles__icon" src="./images/linkedin-two.png"/>
+                                <img className="socials__handles__icon" src="./images/twitter-two.png"/>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p className="footer__top__about__logotwo">GoNow</p>
                 <p className="copyright">Copyright © {date.getFullYear()} gonow</p>
             </div>
         </div>
