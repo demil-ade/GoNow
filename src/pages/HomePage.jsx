@@ -1,21 +1,14 @@
 import React from "react";
 import Inputtwo from "../components/Input/Inputtwo";
+import Header from "../components/Header/Header";
 
 function Homepage(){
     const date = new Date();
 
     return(
         <div className="Home-page">
-            <div className="top-panel">
-                <p className="logo">GoNow</p>
-                <div className="nav">
-                    <p className="link">Home</p>
-                    <p className="link">Create tasks</p>
-                    <p className="link">For Business</p>
-                </div>
-                <div className="GoNow">Go Now</div>
-                <img src="./images/menu.png" className="menu"/>
-            </div>
+            <Header/>
+            
             <div className="description">
                     <img src="./images/hero-image-mobile.png" className="image-mobile"/>
                     <div className="description__info">

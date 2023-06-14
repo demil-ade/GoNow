@@ -1,28 +1,14 @@
 import React from "react";
 import Input from "../components/Input/Input";
+import Header from "../components/Header/Header";
 
 function Business(){
     const date = new Date();
 
     return(
         <div className="Business-page">
-            <div className="top">
-                <p className="top__logo">GoNow</p>
-                <div className="top__navbar">
-                    <p className="top__navbar__link">Home</p>
-                    <p className="top__navbar__link">Create tasks</p>
-                    <p className="top__navbar__link">For Business</p>
-                </div>
-                <div className="top__GoNow">Go Now</div>
-                <div className="top__menu-button">
-                    <img src="./images/menu.png" className="menu"/>
-                    <div class="dropdown-content">
-                        <a href="#">Home</a>
-                        <a href="#">Create tasks</a>
-                        <a href="#">For Business</a>
-                    </div>
-                </div>
-            </div>
+            <Header/>
+
            <div className="page-description">
                 <img src="./images/business-mobile.png" className="page-description__image-mobile"/>
                 <div className="page-description__info">
