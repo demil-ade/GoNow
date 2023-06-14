@@ -85,6 +85,10 @@
         .top__menu-button {
             position: relative;
             display: inline-block;
+
+            @media(min-width: 490px){
+                display: none;
+            }
         }
           
         .dropdown-content {
@@ -104,14 +108,10 @@
             display: block;
         }
           
-        .dropdown-content a:hover {background-color: #f1f1f1}
+        .dropdown-content a:hover {background-color: #ddd}
           
         .top__menu-button:hover .dropdown-content {
             display: block;
-        }
-          
-        .top__menu-button:hover .dropbtn {
-            background-color: #3e8e41;
         }
 
         .menu{
