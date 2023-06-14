@@ -24,10 +24,6 @@
             gap: 0rem;
         }
 
-        @media(max-width: 680px){
-            margin-bottom: 7.5rem;
-        }
-
         @media(max-width: 621px){
             width: 100%;
             margin: auto;
@@ -135,7 +131,6 @@
                 }
 
                 @media(max-width: 680px){
-                    font-size: 0.7rem;
                     max-width: 14rem;
                 }
                 
@@ -182,7 +177,7 @@
 
             @media(max-width: 650px){
                 width: 20rem;
-                margin-bottom: 6rem;
+                margin-bottom: 10rem;
                 margin-top: -1rem;
             }
 
@@ -232,10 +227,20 @@
             border-radius: 0.125rem;
             margin-top: -5rem;
             padding-bottom: 3.3875rem;
+            padding-left: 9.25rem;
+
+            @media(max-width: 1180px){
+                padding-left: 7.5rem;
+            }
+
+            @media(max-width: 1020px){
+                padding-left: 5rem;
+            }
 
             @media(max-width: 1000px){
                 width: 300px;
                 height: 500px;
+                padding-left: 3rem;
             }
 
             @media(max-width: 900px){
@@ -247,6 +252,10 @@
                 width: 270px;
                 height: 480px;
                 margin-top: -3rem;
+            }
+
+            @media(max-width: 650px){
+                padding-left: 2rem;
             }
 
             @media(max-width: 620px){
@@ -513,7 +522,7 @@
                     border-radius: 5px;
                     outline: none;
                     max-width: 28.688rem;
-                    height: 4.75rem;
+                    height: 4.5625rem;
                     padding: 1rem;
 
                     @media(max-width: 1055px){
@@ -540,7 +549,7 @@
                     border-radius: 5px;
                     outline: none;
                     max-width: 28.688rem;
-                    height: 4.75rem;
+                    height: 4.5625rem;
                     padding: 1rem;
 
                     @media(max-width: 1055px){
@@ -567,7 +576,7 @@
                     border-radius: 5px;
                     outline: none;
                     max-width: 28.688rem;
-                    height: 4.75rem;
+                    height: 4.5625rem;
                     padding: 1rem;
 
                     @media(max-width: 1055px){
@@ -594,7 +603,7 @@
                     border-radius: 5px;
                     outline: none;
                     max-width: 28.688rem;
-                    height: 4.75rem;
+                    height: 4.5625rem;
                     padding: 1rem;
 
                     @media(max-width: 1055px){

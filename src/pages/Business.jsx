@@ -47,25 +47,25 @@ function Business(){
                     <div className="footer__top__options-three">
                         <div className="footer__top__options-three__contact">
                             <div className="footer-email">
-                                <img className="footer-email__icon" src="./images/mail.png"/>
+                                <img className="footer-email__icon" src="./images/mail.svg"/>
                                 <p>info@gonow.com</p>
                             </div>
                             <div className="footer-contact">
-                                <img className="footer-contact__icon" src="./images/phone-call.png"/>
+                                <img className="footer-contact__icon" src="./images/phone-call.svg"/>
                                 <p>0810 0000 000</p>
                             </div>
                         </div>
                         <div className="socials">
                             <p className="socials__text">Follow us</p>
                             <div className="socials__handles">
-                                <img className="socials__handles__icons" src="./images/facedbook.png"/>
-                                <img className="socials__handles__icons" src="./images/instagram.png"/>
-                                <img className="socials__handles__icons" src="./images/linkedin.png"/>
-                                <img className="socials__handles__icons" src="./images/twitter.png"/>
-                                <img className="socials__handles__icon" src="./images/facedbook-two.png"/>
-                                <img className="socials__handles__icon" src="./images/instagram-two.png"/>
-                                <img className="socials__handles__icon" src="./images/linkedin-two.png"/>
-                                <img className="socials__handles__icon" src="./images/twitter-two.png"/>
+                                <img className="socials__handles__icons" src="./images/facedbook.svg"/>
+                                <img className="socials__handles__icons" src="./images/instagram.svg"/>
+                                <img className="socials__handles__icons" src="./images/linkedin.svg"/>
+                                <img className="socials__handles__icons" src="./images/twitter.svg"/>
+                                <img className="socials__handles__icon" src="./images/facedbook-two.svg"/>
+                                <img className="socials__handles__icon" src="./images/instagram-two.svg"/>
+                                <img className="socials__handles__icon" src="./images/linkedin-two.svg"/>
+                                <img className="socials__handles__icon" src="./images/twitter-two.svg"/>
                             </div>
                         </div>
                     </div>

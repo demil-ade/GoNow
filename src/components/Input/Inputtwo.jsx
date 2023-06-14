@@ -9,7 +9,7 @@ function Inputtwo(props){
                 onChange={props.onChange} 
                 placeholder={props.placeholder} 
                 pattern={props.pattern}
-                className= {props.className}>{props.text}
+                className="full-name">{props.text}
         </input>
     );
 }
