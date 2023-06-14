@@ -1,6 +1,6 @@
 import React from "react";
 
-function Input(props){
+function Inputtwo(props){
     
     return(
         <input type={props.type} 
@@ -9,7 +9,8 @@ function Input(props){
                 onChange={props.onChange} 
                 placeholder={props.placeholder} 
                 pattern={props.pattern}
-                className= {props.className}>{props.text}</input>
+                className= {props.className}>{props.text}
+        </input>
     );
 }
-export default Input;
+export default Inputtwo;

@@ -200,21 +200,9 @@
 
                 @media(max-width: 345px){
                     font-size: 2.2rem;
-                    max-width: 19rem;
+                    max-width: 19.9rem;
                 }
 
-                /*@media(max-width: 550px){
-                    max-width: 12.5rem;
-                }
-
-                @media(max-width: 475px){
-                    margin-top: 2rem;
-                }
-
-                /*@media(max-width: 450px){
-                    max-width: 10.5rem;
-                    font-size: 1.5rem;
-                }*/
             }
 
             &__two{
@@ -284,25 +272,10 @@
                 width: 23rem;
             }
 
-            @media(max-width: 720px){
-            }
-
             @media(max-width: 650px){
                 width: 20rem;
                 margin-bottom: 6rem;
                 margin-top: -1rem;
-            }
-
-            @media(max-width: 600px){
-                width: 17rem;
-            }
-
-            @media(max-width: 550px){
-                width: 14rem;
-            }
-
-            @media(max-width: 450px){
-                width: 11rem;
             }
 
             @media(max-width: 620px){

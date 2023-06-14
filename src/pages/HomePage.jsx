@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "../components/Input/Input";
+import Inputtwo from "../components/Input/Inputtwo";
 
 function Homepage(){
     const date = new Date();
@@ -52,9 +52,9 @@ function Homepage(){
                     <p className="form__info__big">I am interested</p>
                     <p className="form__info__small">Curabitur sollicitudin elit est vitae placerateros convallis eu. Must be between age 15-24.</p>
                     <form className="form__info__details">
-                        <Input className='full-name' placeholder ="   Full Name" type="text"/>
-                        <Input className='phone-number' placeholder ="   Phone Number" type="text"/>
-                        <Input className='email' placeholder ="   Email Address" type="email"/> 
+                        <Inputtwo className='full-name' placeholder ="   Full Name" type="text"/>
+                        <Inputtwo className='phone-number' placeholder ="   Phone Number" type="text"/>
+                        <Inputtwo className='email' placeholder ="   Email Address" type="email"/> 
                         <select className="education-level" id="education-level"> 
                             <option value="highest-education-level"> Highest level of Education</option>
                             <option value=""></option> 
