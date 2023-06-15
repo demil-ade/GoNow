@@ -50,6 +50,11 @@
         @media(max-width: 490px){
             display: none;
         }
+
+        p:active, p:hover, p:focus, p:visited{
+            cursor: pointer;
+            color: #0B88DF;
+        }
     }
 
     &__GoNow{

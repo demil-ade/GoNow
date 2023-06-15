@@ -1,13 +1,32 @@
 import React from "react";
 import Inputtwo from "../components/Input/Inputtwo";
-import Header from "../components/Header/Header";
+import { useNavigate } from "react-router";
+/*import Header from "../components/Header/Header";*/
 
 function Homepage(){
     const date = new Date();
+    const route = useNavigate();
 
     return(
         <div className="Home-page">
-            <Header/>
+            {/*<Header/>*/}
+            <div className="top">
+            <p className="top__logo">GoNow</p>
+            <div className="top__navbar">
+                <p className="top__navbar__link" onClick={() => route('/')}>Home</p>
+                <p className="top__navbar__linktwo">Create tasks</p>
+                <p className="top__navbar__linkthree" onClick={() => route('/business')}>For Business</p>
+            </div>
+            <div className="top__GoNow">Go Now</div>
+            <div className="top-panel__menu-button">
+                <img src="./images/menu.svg" className="menu"/>
+                <div class="dropdown-content">
+                    <p className="dropdown-content__one" onClick={() => route('/')}>Home</p>
+                    <p className="dropdown-content__two">Create tasks</p>
+                    <p className="dropdown-content__three" onClick={() => route('/business')}>For Business</p>
+                </div>
+            </div>
+        </div>
             
             <div className="description">
                     <img src="./images/hero-image-mobile.png" className="image-mobile"/>

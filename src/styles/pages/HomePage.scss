@@ -3,6 +3,148 @@
     width: 100%;
     margin: auto;
 
+    .top{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        @media(max-width: 490px){
+            justify-content: space-between;
+            padding: 1rem;
+        }
+    
+    
+        &__logo{
+            @import url("https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap");
+            font-family: 'Stardom', sans-serif;
+            color: #1E1E1E;
+            margin-top: 3.5rem;
+            font-size: 2.3rem;
+            text-align: center;
+    
+            @media(max-width: 490px){
+                margin-bottom: 2.1rem;
+                font-size: 2.1rem;
+            }
+        }
+    
+        &__navbar{
+            @import url('https://fonts.googleapis.com/css?family=Lexend');
+            font-family: 'Lexend', sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            display: flex;
+            gap: 3rem;
+            margin-bottom: 6.063rem;
+            margin-top: 4.6rem;
+            text-align: center;
+    
+            @media (max-width: 550px){
+                gap: 2rem;
+            }
+            @media (max-width: 530px){
+                gap: 1rem;
+            }
+    
+            @media(max-width: 650px){
+                font-size: 0.8rem;
+            }
+    
+            @media(max-width: 490px){
+                display: none;
+            }
+
+            &__link{
+                color: #0B88DF;
+            }
+    
+            p:active, p:hover, p:focus, p:visited{
+                cursor: pointer;
+                color: #0B88DF;
+            }
+        }
+    
+        &__GoNow{
+            @import url('https://fonts.googleapis.com/css?family=DM Sans');
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            background-color: #1E1E1E;
+            color:#FFFFFF;
+            border-radius: 5px;
+            margin-bottom: 4.938rem;
+            margin-top: 3.313rem;
+            padding: 1.094rem 4.063rem;   
+    
+            @media(max-width: 740px){
+                padding: 1.094rem 3rem;
+            }
+    
+            @media(max-width: 620px){
+                padding: 1.094rem 1rem;
+            }
+    
+            @media(max-width: 490px){
+                display: none;
+            }
+            
+        }
+    
+        .top-panel__menu-button {
+            position: relative;
+            display: inline-block;
+    
+            @media(min-width: 490px){
+                display: none;
+            }
+        }
+          
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 127px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            right: 0;
+            z-index: 1;
+
+            p:active, p:hover, p:focus, p:visited{
+                cursor: pointer;
+                color: #0B88DF;
+            }
+
+        }
+        .dropdown-content__one{
+            color:#0B88DF;
+        }
+          
+        .dropdown-content p {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+          
+        .dropdown-content p:hover {background-color: #ddd}
+          
+        .top-panel__menu-button:hover .dropdown-content {
+            display: block;
+        }
+    
+        .menu{
+            width: 24px;
+            height: 24px;
+            margin-top: 4rem;
+            margin-bottom: 2.323rem;
+    
+            @media(min-width: 490px){
+                display: none;
+            }
+        }
+    }
+
 
     .description{
         width: 100%;
@@ -513,6 +655,10 @@
                     @media(max-width: 360px){
                         max-width: 20rem;
                     }
+                }
+
+                #full-name::placeholder{
+                    color: red;
                 }
 
                 .full-name{
